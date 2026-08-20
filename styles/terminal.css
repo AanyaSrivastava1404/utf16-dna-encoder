@@ -1,0 +1,38 @@
+
+#terminal {
+  padding: 1%;
+  height: 97%;
+  background-color: black;
+  color: rgb(200, 82, 255);
+  font-size: 12px;
+  border: none;
+  overflow: auto;
+  margin-bottom: 3%;
+}
+
+#cmd-temp-wrap {
+  display: flex;
+  height: 100%;
+}
+
+#cmd-area {
+  resize: none;
+  width: 100%;
+  margin-left: 10px;
+  background-color: black;
+  color: rgba(172, 255, 47);
+  border: 0;
+}
+
+#cmd-area:focus {
+  border: 0;
+  outline: none;
+}
+
+.history-txt{
+  color: rgba(172, 255, 47, 0.793);
+}
+
+.result-ack {
+  color: rgb(221, 55, 176);
+}
